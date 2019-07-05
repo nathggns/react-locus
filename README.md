@@ -43,7 +43,7 @@ import { Locus, LocusContainer } from "react-locus";
 
 function Item() {
   return (
-    <Locus
+    <Locus.div
       style={{
         ":nth-child(2n+1)": {
           backgroundColor: "#eee"
@@ -51,7 +51,7 @@ function Item() {
       }}
     >
       Item
-    </Locus>
+    </Locus.div>
   );
 }
 
